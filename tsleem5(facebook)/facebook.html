@@ -1,0 +1,70 @@
+<html>
+<title>facebook</title>
+<script type="text/javascript" src="login.js"></script>
+<head>
+<link rel="stylesheet" type ="text/css" href="face_style.css"/>
+</head>
+
+<body>
+ <form name="form">
+    <div class="header">
+      <div id= "img1" class="header"> <img src ="img1.png" /></div>
+      <div id="userName" class="header" >Email or Username</br>
+        <input type="mail" name="mail" placeholder="Email"/></br>
+        <input type="checkbox"/>Keep me logged in</div>
+      <div id="pass" class="header">Password <br>
+        <input type="password" name="password" placeholder="Password"/></br><a href ="#">Forgot your password?</a></div>
+    </div>
+
+    <input type ="button" class="submit1" value="log In " onclick="login()" />
+</form>
+<div class ="bodyx">
+   <div id ="information1" class="bodyx">Connect with friends and the<br>world arround you on Facebook.</div>
+   <div id ="information2" class="bodyx">Sign Up</div>
+   <div id="img2" class="bodyx"><img src="img2.png"/>See photos and updates</div>
+   <div id="img3" class="bodyx"><img src="img3.png"/>Share what's new </div>
+   <div id="img4" class="bodyx"><img src="img4.png"/>Find more</div>
+     
+   <div id ="information3" class="bodyx">Its free and always will be.</div>
+   <form name="form2">
+   <div id="form1" class="bodyx">
+      <input type="text" id="f_name" placeholder="Firstname" name="fname" />
+	  <input type="text" id="l_name" placeholder="Lastname" name="lname" />  <br>
+      <input type="text" id="mailbox" placeholder="Email" name="email" />     <br>
+      <input type="text" id="mailbox" placeholder="Re-enter email" name="re_email" /><br>
+      <input type="password" id="mailbox" placeholder="Password" name="log_pass" /><br>
+      Birthdate</br>
+	  <select>
+         <option>Month</option> <option>Jan</option> <option>Feb</option>
+         <option>Mar</option> <option>Apr</option> <option>May</option>
+         <option>Jun</option> <option>Jul</option> <option>Aug</option>
+         <option>Sep</option> <option>Oct</option> <option>Nov</option> <option>Dec</option>
+      </select>
+	  
+	  <select>
+	     <option>Day</option> <option>1</option> <option>2</option> <option>3</option><option>4</option> <option>5</option>
+		 <option>6</option> <option>7</option><option>8</option> <option>8</option> <option>10</option>
+		 <option>11</option><option>12</option> <option>13</option> <option>14</option> <option>15</option>
+	  </select>
+	  
+	  <select>
+	     <option>Year</option> <option>1</option> <option>2</option> <option>3</option><option>4</option> <option>5</option>
+		 <option>6</option> <option>7</option><option>8</option> <option>8</option> <option>10</option>
+		 <option>11</option><option>12</option> <option>13</option> <option>14</option> <option>15</option>
+	  </select><a href="#" style="font-size:12 ">Why do I need to provide my birthday?</a><br>
+	  
+	  <input type="radio" id="sex" value ="male"/>Female
+	  <input type="radio" id="sex" value ="male"/>Male<br>
+	   <font style="font-size:12 "/> By clicking Sign Up, you agree to our Terms and that you have<br> read our Data Policy, including our Cookie Use.<br><br>
+		<br><hr><a href="#" style ="font-size:18"> creat a page  for celebrity, band or busines</a>
+   </div>
+</div>
+<input type="submit" class="button2" value="sign up" onclick=" return regs_login();" />
+</form>
+<div class="down">
+  <div id ="lang" class="down"><a >English UK....</a> <a >Arabic....</a><br><hr>
+  <a >Learn more....</a></div>
+</div>
+  
+</body>
+</html>
